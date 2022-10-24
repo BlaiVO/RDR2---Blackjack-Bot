@@ -42,7 +42,7 @@ while True:
         if currentHits < 3:
             print("Now I hit")
             HoldAndReleaseKey(H, 0.2)
-            currentHits += 1;
+            currentHits += 1
         else:
             print("Now I stand")
             HoldAndReleaseKey(S, 0.2)
